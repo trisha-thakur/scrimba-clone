@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+* {
+  margin: 0;
+  color: hsl(250, 18%, 19%);
+  background-color: white;
+  /* font-family: "Karla", sans-serif; */
+  /* overflow-x: hidden; */
+  font-family: var(--font-sans,system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+  
+}
+
+.logo {
+  max-width: 10%;
+}
+
+.crowdImage {
+  margin-left: 20%;
+  padding: 50px;
+  max-width: 40%;
+  padding-bottom: 200px;
+}
+
+.sittingImage {
+  padding-left: 300px;
+}
+.navbar {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.navbar h1 {
+  color: black;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: black;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.navbar a:hover {
+  box-shadow: inset 100px 0 0 0 hsl(250, 18%, 19%);
+  color: white;
+}
+
+.content1 {
+  margin-left: 40%;
+  padding: 20px;
+  font-size: 2rem;
+  color: hsl(250, 18%, 19%);
+  font-size: 2rem;
+}
+.content2 {
+  padding: 20px;
+  font-size: 5.5rem;
+  color: hsl(250, 18%, 19%);
+  font-size: 5.5rem;
+  font-weight: 700;
+}
+.content3 {
+  font-size: 2rem;
+}
+
+.content4 {
+  font-size: 1.25rem;
+  display: flex;
+  /* background-color:#B4CDE6; */
+  padding-bottom: 10rem;
+  /* justify-content: space-between; */
+  /* align-items: row; */
+  /* text-align: center; */
+  /* position: relative; */
+}
+
+.content5 {
+  display: flex;
+  flex-direction: column;
+  background: var(--medium-bubble-gum);
+  padding: 2rem;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: none 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  box-shadow: 0px 2px 40px rgb(0 0 0 / 40%);
+  max-width: 65%;
+  position: relative;
+  left: 250px;
+  margin-bottom: 10rem;
+}
+.coding {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  margin-left:5%;
+}
+
+.become {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.section2 {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.demand {
+  font-size: 1.25rem;
+  padding: 10px;
+  max-width: 50%;
+  padding-left: 20rem;
+  text-align: left;
+}
+
+.join {
+  max-width: 55%;
+  padding-left: 20rem;
+  padding-bottom: 1rem;
+  text-align: left;
+  overflow-y: hidden;
+}
+
+.median {
+  /* margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-left: 4px solid var(--lavendar);
+  */
+  padding: 10px;
+  font-size: 2rem;
+  max-width: 50%;
+  font-style: italic;
+  font-weight: 400;
+  border-left: 4px solid var(--lavendar);
+  padding-left: 20rem;
+  line-height: 1.25;
+  text-align: left;
+}
+
+.bureau {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  margin-right: 13%;
+}
+
+.over {
+  font-size: 3rem;
+  line-height: 1.1;
+  position: relative;
+  right: 200px;
+}
+
+.sign {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 520px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+.qualities{
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+
+.faq{
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.to-the{
+  font-size: 2rem;
+}
+
+.faq-img{
+  max-width: 10%;
+}
+
+.grid-container{
+  display: grid;
+  grid-column-gap: 2rem;
+  align-items: flex-start;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-element{
+  padding-top: 25px;
+  padding: 20px;
+}
+
+.grid-images{
+  max-width: 15%;
+}
+
+.grid-title{
+  font-weight: 800;
+}
+
+.grid-content{
+  font-weight: 400;
+  
+}
+.btn1 {
+  margin-left: 40%;
+  font-size: 1.25rem;
+  border-radius: 6px;
+  padding: 15px;
+  color: aliceblue;
+  background-color: hsl(248, 100%, 60.4%);
+  font-size: 1.25rem;
+  border-width: 0;
+}
+
+.btn2 {
+  max-width: 25%;
+  font-size: 1.25rem;
+  border-radius: 6px;
+  color: aliceblue;
+  background-color: hsl(248, 100%, 60.4%);
+  font-size: 1.25rem;
+  border-width: 0;
+  padding: 15px;
+}
