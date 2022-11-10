@@ -5,8 +5,22 @@
   background-color: white;
   /* font-family: "Karla", sans-serif; */
   /* overflow-x: hidden; */
-  font-family: var(--font-sans,system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
-  
+  font-family: var(
+    --font-sans,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji"
+  );
 }
 
 .logo {
@@ -97,14 +111,14 @@
   margin-bottom: 10rem;
 }
 
-.content7{
+.content7 {
   padding-bottom: 5%;
 }
 .coding {
   clear: both;
   display: inline-block;
   width: 100%;
-  margin-left:5%;
+  margin-left: 5%;
 }
 
 .become {
@@ -173,53 +187,86 @@
   text-align: left;
 }
 
-.qualities{
+.qualities {
   font-size: 3rem;
   padding-bottom: 20px;
 }
 
-.faq{
+.faq {
   font-weight: 800;
   font-size: 3rem;
-  padding-bottom:20px;
+  padding-bottom: 20px;
 }
 
-.to-the{
+.to-the {
   font-size: 2rem;
 }
 
-.faq-img{
+.faq-img {
   max-width: 10%;
 }
 
-.grid-container{
+.grid-container {
   display: grid;
   grid-column-gap: 0.1rem;
   /* align-items: flex-start; */
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 1em ;
-  grid-auto-rows:minmax(100px , auto);
+  grid-row-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
 }
 
-.grid-element{
+.grid-element {
   padding-top: 25px;
   padding: 10px;
 }
 
-.grid-images{
+.grid-images {
   max-width: 15%;
 }
 
-.grid-title{
+.grid-title {
   font-weight: 800;
 }
 
-.grid-content{
+.grid-content {
   font-weight: 400;
   width: 55%;
   margin-left: 25%;
   text-align: left;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: roww;
+  width: 100%;
+  background-color: lightgrey;
   
+}
+
+.scrimba-img {
+  max-width: 100%;
+}
+
+.footer-row-elements {
+  font-weight: 400;
+  width: 5%;
+  margin-left: 15%;
+  text-align: right;
+  padding: 1%;
+  background-color: lightgrey;
+}
+
+.element {
+  padding: 10%;
+  width: max-content;
+  background-color: lightgrey;
+}
+
+.heading{
+  text-decoration: solid;
+  font-weight: bold;
 }
 .btn1 {
   margin-left: 40%;
@@ -243,7 +290,7 @@
   padding: 15px;
 }
 
-.btn3{
+.btn3 {
   max-width: 25%;
   font-size: 1.25rem;
   border-radius: 6px;
@@ -253,5 +300,5 @@
   border-width: 0;
   padding: 15px;
   margin-top: 5%;
-
+  margin-bottom: 5%;
 }

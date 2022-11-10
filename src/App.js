@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './home';
 import Navbar from './navbar';
+import Footer from './footer';
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
       <Navbar/>
       <div className='Content'>
         <Home/>
-
+      </div>
+      <div className='footer'>
+        <Footer/>
       </div>
     
 
